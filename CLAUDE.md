@@ -37,6 +37,14 @@ Claude Code 的沙箱环境会自动设置 `ELECTRON_RUN_AS_NODE=1`，这会让 
 
 （用户自己在终端里运行 `npm run dev` 时不受影响，因为那时没有这个变量。）
 
+## 版本管理（Git）
+
+- 项目已纳入 Git 管理，代码云端备份在 GitHub（**私有仓库**）：https://github.com/kael-orange-ovo/money-app
+- 远程名 `origin`，默认分支 `main`。
+- 日常改完代码存档：`git add .` 然后 `git commit -m "改了什么的说明"`
+- 同步到云端：`git push`
+- 注意：用户是零基础，**由 Claude 代为执行 Git 命令**，执行前先讲清方案并征得同意。
+
 ## 已确定的需求
 
 1. 运行平台：Windows + Mac 桌面电脑。
